@@ -8,7 +8,7 @@ import { Component, ViewChildren, ElementRef, AfterViewInit, QueryList, ViewEnca
 })
 export class AppComponent implements AfterViewInit {
   
-  title = 'Automating elements and their Code Snippets';
+  title = 'Automate Codesnippets';
   public buttonList: ElementRef[] = [];
 
   @ViewChildren('buttonsRefs') buttons: QueryList<ElementRef>;
